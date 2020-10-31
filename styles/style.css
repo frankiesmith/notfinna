@@ -25,13 +25,13 @@ body {
   margin: 40px; }
 
 .swiper-slide {
-  background-image: url("https://assets.codepen.io/1270439/not-finna-joe-angled.jpg");
+  background-image: url("/img/not-finna-joe-angled.jpg");
   background-size: cover;
   background-position: center;
   background-color: #333;
   background-blend-mode: multiply; }
   .swiper-slide.one .logo {
-    background-image: url("https://assets.codepen.io/1270439/notfinna.jpg"); }
+    background-image: url("notfinna-blue.jpg"); }
 
 .social-icons {
   width: 50px;
