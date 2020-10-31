@@ -11,7 +11,7 @@ var mySwiper = new Swiper('.swiper-container', {
   loop: true,
 
   on: {
-    slideChangeTransitionStart: function (e) {
+    slideChangeTransitionEnd: function (e) {
       jQuery('.logo').addClass('visible');
     }
 },
