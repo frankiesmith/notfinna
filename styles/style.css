@@ -21,8 +21,6 @@ body {
   justify-content: center; }
 
 .logo {
-  opacity: 0;
-  transition: 1.7s ease;
   width: 100%;
   max-width: 800px;
   height: 200px;
@@ -49,9 +47,6 @@ body {
     background-image: url("/img/green-rail.jpg"); }
     .swiper-slide.three .logo {
       background-image: url("/img/notfinna-green.jpg"); }
-  .swiper-slide.swiper-slide-active .logo {
-    opacity: 1;
-    transition: 1.7s ease; }
 
 .social-icons {
   width: 50px;

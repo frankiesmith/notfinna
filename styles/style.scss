@@ -26,8 +26,6 @@ body {
 }
 
 .logo {
-    opacity: 0;
-    transition: 1.7s ease;
     width: 100%;
     max-width: 800px;
     height: 200px;
@@ -65,13 +63,6 @@ body {
 
         .logo {
             background-image: url("/img/notfinna-green.jpg");
-        }
-    }
-
-    &.swiper-slide-active {
-        .logo {
-            opacity: 1;
-            transition: 1.7s ease;
         }
     }
 }
