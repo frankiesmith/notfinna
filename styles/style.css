@@ -37,6 +37,10 @@ body {
     background-image: url("/img/stop-sign.jpg"); }
     .swiper-slide.two .logo {
       background-image: url("/img/notfinna-red.jpg"); }
+  .swiper-slide.three {
+    background-image: url("/img/green-rail.jpg"); }
+    .swiper-slide.three .logo {
+      background-image: url("/img/notfinna-green.jpg"); }
 
 .social-icons {
   width: 50px;

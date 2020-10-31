@@ -49,6 +49,14 @@ body {
             background-image: url("/img/notfinna-red.jpg");
         }
     }
+
+    &.three {
+        background-image: url("/img/green-rail.jpg");
+
+        .logo {
+            background-image: url("/img/notfinna-green.jpg");
+        }
+    }
 }
 
 .social-icons {
