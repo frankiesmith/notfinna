@@ -22,6 +22,6 @@ var mySwiper = new Swiper('.swiper-container', {
 
   on: {
     slideChangeTransitionStart: function () {
-      jquery(.logo).addClass('visible');
+      jquery('.logo').addClass('visible');
     },
 })
