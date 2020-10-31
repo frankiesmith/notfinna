@@ -14,7 +14,7 @@ var mySwiper = new Swiper('.swiper-container', {
     slideChangeTransitionStart: function () {
       jquery('.logo').addClass('visible');
     }
-}
+},
 
   // If we need pagination
   pagination: {
