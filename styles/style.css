@@ -31,7 +31,7 @@ body {
   background-color: #333;
   background-blend-mode: multiply; }
   .swiper-slide.one .logo {
-    background-image: url("notfinna-blue.jpg"); }
+    background-image: url("/img/notfinna-blue.jpg"); }
 
 .social-icons {
   width: 50px;
