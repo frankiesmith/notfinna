@@ -10,12 +10,6 @@ var mySwiper = new Swiper('.swiper-container', {
   direction: 'vertical',
   loop: true,
 
-  on: {
-    slideChangeTransitionEnd: function (e) {
-      jQuery('.logo').addClass('visible');
-    }
-},
-
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
