@@ -29,15 +29,24 @@ body {
 }
 
 .swiper-slide {
-    background-image: url("/img/not-finna-joe-angled.jpg");
     background-size: cover;
     background-position: center;
     background-color: #333;
     background-blend-mode: multiply;
 
     &.one {
+        background-image: url("/img/not-finna-joe-angled.jpg");
+
         .logo {
             background-image: url("/img/notfinna-blue.jpg");
+        }
+    }
+
+    &.two {
+        background-image: url("/img/stop-sign.jpg");
+
+        .logo {
+            background-image: url("/img/notfinna-red.jpg");
         }
     }
 }
