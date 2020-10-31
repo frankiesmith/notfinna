@@ -35,8 +35,10 @@ body {
   background-position: center;
   background-color: #333;
   background-blend-mode: multiply; }
-  .swiper-slide.one .logo {
-    background-image: url("/img/notfinna-blue.jpg"); }
+  .swiper-slide.one {
+    background-image: url("/img/not-finna-joe-angled.jpg"); }
+    .swiper-slide.one .logo {
+      background-image: url("/img/notfinna-blue.jpg"); }
   .swiper-slide.two {
     background-image: url("/img/stop-sign.jpg"); }
     .swiper-slide.two .logo {
