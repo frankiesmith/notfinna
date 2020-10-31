@@ -19,52 +19,7 @@ let vh = window.innerHeight * 0.01;
 // Then we set the value in the --vh custom property to the root of the document
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 </script>
-    <style>
-    	body {
-    		margin:0;
-    		    		background-image: url("/not-finna-joe-angled.jpg");
-    		background-size: cover;
-        background-attachment: fixed;
-        background-position:center;
-        background-color: #333;
-        background-blend-mode: multiply;
-    	}
-    	.logo-container {
-    		margin:0px;
-		    display: flex;
-		    width:100%;
-		    height: 100vh;
-		    height: calc(var(--vh, 1vh) * 100);
-		    align-items: center;
-		    justify-content: center;
-    	}
-			.image {
-				background-image: url("/notfinna.jpg");
-				width: 100%;
-			    max-width: 800px;
-			    height: 200px;
-			    background-size: contain;
-			    background-position: center;
-			    margin: auto;
-			    background-repeat: no-repeat;
-			    margin:40px;
-			}
-			@media (min-width: 481px){
-				h1{font-size:80px;}
-			}
-			@media (min-width: 921px){
-				h1{font-size:140px;}
-			}
 
-			.social-icons {
-    width: 50px;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-}
-		</style>
   </head>
 	<body>
 		<div class="logo-container">
