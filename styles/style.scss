@@ -27,7 +27,7 @@ body {
 
 .logo {
     opacity: 0;
-    transition: 1s ease;
+    transition: 2s ease-out;
     width: 100%;
     max-width: 800px;
     height: 200px;
@@ -71,7 +71,7 @@ body {
     &.swiper-slide-active {
         .logo {
             opacity: 1;
-            transition: 1s ease;
+            transition: 2s ease-in;
         }
     }
 }
