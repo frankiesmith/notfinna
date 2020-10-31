@@ -11,6 +11,11 @@ var mySwiper = new Swiper('.swiper-container', {
   loop: true,
   parallax: true,
 
+  // Lazy load next image
+  lazy: {
+    loadPrevNext: true,
+  },
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
