@@ -9,6 +9,7 @@ var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
+  parallax: true,
 
   // If we need pagination
   pagination: {
