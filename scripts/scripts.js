@@ -19,4 +19,9 @@ var mySwiper = new Swiper('.swiper-container', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+
+  on: {
+    slideChangeTransitionStart: function () {
+      jquery(.logo).addClass('visible');
+    },
 })
