@@ -97,6 +97,20 @@ body {
     animation: seconds .1s forwards;
     animation-iteration-count: 1;
     animation-delay: 4.8s;
+
+    &.mobile {
+        display: none;
+
+        @media (max-width: 500px) {
+            display: block;
+        }
+    }
+
+    &.desktop {
+        @media (max-width: 500px) {
+            display: none;
+        }
+    }
 }
 
 .vimeo-wrapper iframe {

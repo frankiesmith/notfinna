@@ -76,6 +76,14 @@ body {
   animation: seconds .1s forwards;
   animation-iteration-count: 1;
   animation-delay: 4.8s; }
+  .vimeo-wrapper.mobile {
+    display: none; }
+    @media (max-width: 500px) {
+      .vimeo-wrapper.mobile {
+        display: block; } }
+  @media (max-width: 500px) {
+    .vimeo-wrapper.desktop {
+      display: none; } }
 
 .vimeo-wrapper iframe {
   width: 100vw;
